@@ -29,7 +29,7 @@ jobs:
     - run: npm ci
     - run: |
         echo "::remove-matcher owner=eslint-compact::"
-        echo "::remove-matcher owner=eslint-stylish::"
+        #echo "::remove-matcher owner=eslint-stylish::"
     #- run: npm run build --if-present
     #- run: npm test
     - run: npx eslint src/app.js
